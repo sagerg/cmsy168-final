@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="TheHealthJournal. We appreciate your feedback! *This is a demo form and does not submit any info to us.">
+        <meta name="keywords" content="HTML,CSS,health,workout,routine,journal,project,CMSY168,HCC">
+        <meta name="author" content="Sage Garcia">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Feedback</title>
+        <link rel = "stylesheet" href = "styles/main.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel = "shortcut icon" href = "images/favicon.ico">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo" class="logo" href="index.html">
+                <p class="tagline">The<span style="color:dodgerblue;">Health</span>Journal</p>
+            </a>
+            <nav role = "navigation">
+                <ul class = "nav-bar">
+                    <li><a href = "index.html">Home</a></li>
+                    <li class = "sub-menu">
+                        <a href = "learnmore.html">Index &#9662;</a>
+                        <ul class = "dropdown">
+                            <li><a href = "time.html">Time Management</a></li>
+                            <li><a href = "sleep.html">Sleeping Early</a></li>
+                            <li><a href = "diet.html">Eating Healthy</a></li>
+                            <li><a href = "work.html">Balancing Work</a></li>
+                            <li><a href = "run.html">Exercising</a></li>
+                        </ul>
+                    </li> 
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "feedback.html" class = "on-page">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="bnr">
+                <img src="images/blue.png" alt="" style="width:100%;">
+                <h1>Have some feedback?</h1>
+            </div>
+            <h2 style="padding-left: 0; text-align: center;">Please complete the form below.</h2>
+            <section class="form-container">
+                <form action="thankyou.html" method="GET">
+                    <label for="firstname"> * Firstname: </label><br>
+                    <input type="text" name="firstname" placeholder="Your name..." required autofocus><br>
+                    <label for="lastname"> * Lastname: </label><br>
+                    <input type="text" name="lastname" required><br>
+                    <label for="email"> * Email: </label><br>
+                    <input type="email" name="email" required><br>
+                    <br>
+                    Please rate your overall experience:<br><br>
+                    <input type="radio" name="status" value="1" checked>Outstanding<br>
+                    <input type="radio" name="status" value="2">Satisfactory<br>
+                    <input type="radio" name="status" value="3">Okay<br>
+                    <input type="radio" name="status" value="4">Needs Improvement<br>
+                    <input type="radio" name="status" value="5">Very Bad<br>
+                    <br>
+                    Additional comments:<br><br>
+                    <textarea name="comment" rows="10"></textarea><br>
+                    <br>
+                    <input type="submit" value="Submit Information">
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

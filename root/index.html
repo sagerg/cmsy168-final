@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Home page for TheHealthJournal. Take some time to browse through our many tidbits for how to stay on top of your health. Our site contains articles on how to be productive with work or school.">
+        <meta name="keywords" content="HTML,CSS,health,workout,routine,journal,project,CMSY168,HCC">
+        <meta name="author" content="Sage Garcia">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Health Journal: Home</title>
+        <link rel="stylesheet" href = "styles/main.css">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="shortcut icon" href = "images/favicon.ico">
+        <style>            
+            button{
+                margin: 0 auto 70px; 
+                display: block;  
+            }
+            .bnr h1{
+                color:#fff;
+            }
+            video{
+                width: 100%;
+                left:0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <img src="images/logo.png" alt="logo" class="logo" href="index.html">
+                <p class="tagline">The<span style="color:dodgerblue;">Health</span>Journal</p>
+            </a>
+            <nav role = "navigation">
+                <ul class = "nav-bar">
+                    <li><a href = "index.html" class = "on-page">Home</a></li>
+                    <li class = "sub-menu">
+                        <a href = "learnmore.html">Index &#9662;</a>
+                        <ul class = "dropdown">
+                            <li><a href = "time.html">Time Management</a></li>
+                            <li><a href = "sleep.html">Sleeping Early</a></li>
+                            <li><a href = "diet.html">Eating Healthy</a></li>
+                            <li><a href = "work.html">Balancing Work</a></li>
+                            <li><a href = "run.html">Exercising</a></li>
+                        </ul>
+                    </li>
+                    <li><a href = "about.html">About</a></li>
+                    <li><a href = "feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="bnr">
+                <video autoplay loop muted poster="videos/thumbnail.jpg">
+                    <source src="videos/video.mp4" type="video/mp4">
+                    <source src="videos/video.webm" type="video/webm">
+                    <source src="videos/video.ogv" type="video/ogg">
+                    Your browser does not support the video tag.
+                    <!-- This video is from covver.co and is under their license: https://coverr.co/license -->
+                </video>
+                <h1>Take a step back. To go forward.</h1>
+            </div>
+            <p>
+                Having some key guidelines on how you go throughout your day are just as important as the
+                tasks you have. Take some time to think about the small things that you do and how you can 
+                improve yourself through them incrementally. Whether that's
+                sleeping earlier than your usual bedtime, eating less junk food, or getting some exercise
+                on the weekend, any will do. On here, you might find some helpful notes on these small—but not
+                so easy—everyday tasks. Take a look around.
+            </p>
+        </main>
+        <aside style="margin-bottom: 30px;">
+            <div class="content-card bigger">
+                <img src="images/runners.jpg" alt="Photo by Braden Collum: Race Competition">
+                <caption>&copy; <a href="https://unsplash.com/@bradencollum" target="_blank">Braden Collum</a></caption>
+            </div>
+            <p>
+                Exercising doesn't have to be boring! A refreshing way to stay on top of your
+                runs while still hanging out with friends and family is to join a fun run. There's
+                plenty of them happening, and most are towards a good cause!
+            </p>
+        </aside>
+        <a href="https://www.active.com/running" target="_blank"><button title="Fun runs near you" class="btn draw-border">Join a fun run today!</button></a>
+    </body>
+</html>
