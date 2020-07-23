@@ -2,7 +2,7 @@
 
 ![Image of Website](https://github.com/sagerg/cmsy168-final/blob/master/cover.png)
 
-The site is currently live **[[HERE](https://phpmysql.howardcc.edu/Users/sgarcia6599/)**.
+The site is currently live **[HERE](https://phpmysql.howardcc.edu/Users/sgarcia6599/)**.
 
 The Health Journal is a project aimed at spreading mental health awareness. It provides helpful suggestions and tips for creating a stress-free and productive environment for oneself. Originally, this was a course project from one of my classes.
 
