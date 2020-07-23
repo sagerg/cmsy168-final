@@ -2,7 +2,7 @@
 
 ![Image of Website](https://github.com/sagerg/cmsy168-final/blob/master/cover.png)
 
-The site is currently live **[HERE]**.
+The site is currently live **[[HERE](https://phpmysql.howardcc.edu/Users/sgarcia6599/)**.
 
 The Health Journal is a project aimed at spreading mental health awareness. It provides helpful suggestions and tips for creating a stress-free and productive environment for oneself. Originally, this was a course project from one of my classes.
 
@@ -29,7 +29,7 @@ The homepage's front banner is a video for `screen: max-width %`. For buffering 
 
 ## Photos and Media
 
-Some media and photos used were taken from [Unsplash]. Go check them out if you haven't yet!
+Some media and photos used were taken from [Unsplash](https://unsplash.com/). Go check them out if you haven't yet!
 
 ## Normalize.css
 
@@ -44,6 +44,3 @@ Yes. Thanks for checking it out! Any feedback is greatly appreciated.
 ## License
 
 MIT License
-
-[HERE]: <http://example.org](http://example.org/>
-[Unsplash]: <[https://unsplash.com/](https://unsplash.com/)>
