@@ -1,6 +1,6 @@
 # CMSY 168: Project
 
-![Image of Website](https://sagerg.github.com/cover.png)
+![Image of Website](https://github.com/sagerg/cmsy168-final/blob/master/cover.png)
 
 The site is currently live **[HERE]**.
 
